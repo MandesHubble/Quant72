@@ -12,7 +12,7 @@ Built for collaboration, this repo integrates Python (ElizaOS) for Twitter inter
 
 Phase_1:
 	Environment setup -> 
-	elizaOs env, connect to twitter, set AI model
+ 	elizaOs env, connect to twitter, set AI model
 	set up Ts Token agent for data analysis
 
 Phase_2:
