@@ -34,7 +34,7 @@ Built for collaboration, this repo integrates Python (ElizaOS) for Twitter inter
 - **Twitter API Keys** (create an app at [developer.x.com](https://developer.x.com)).
 
 ---
-# Roadmap (Quant72)
+# Roadmap
 
 *ElizaOS AI Agent: Single-agent, multi-actions, Python-based, integrated with a TypeScript agent.*  
 *Team Responsibilities: Mandes (Phase 1 & 3), Zhou (Phase 2)*
