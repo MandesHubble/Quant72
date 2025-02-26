@@ -1,0 +1,6 @@
+node_modules/
+venv/
+*.pyc
+eliza/output/*.png
+eliza/output/*.json
+token-agent/dist/
