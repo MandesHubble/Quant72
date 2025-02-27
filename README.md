@@ -26,12 +26,27 @@ Built for collaboration, this repo integrates Python (ElizaOS) for Twitter inter
 ---
 
 ## Prerequisites
+Ensure the following tools are installed with these specific versions (or later, if compatible):
 
 - **WSL** (Ubuntu recommended) on Windows.
-- **Node.js** and `pnpm` (`npm install -g pnpm`).
-- **Python 3.10+** with `pip` and `venv`.
-- **Git** for version control.
-- **Twitter API Keys** (create an app at [developer.x.com](https://developer.x.com)).
+- **Node.js**: v20.18.3
+- **npm**: v10.8.2 (comes with Node.js)
+- **pnpm**: v9.15.0
+- **Python**: v3.12.3 (or compatible version in virtual environment)
+- **Git**: v2.39.2 (or later)
+- **Twitter API Keys** (create an app at [developer.x.com](https://developer.x.com))
+  
+## Setup Instructions for Developers
+
+### 1. Install System Prerequisites (Ubuntu WSL)
+```bash
+sudo apt update
+sudo apt install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev libpng-dev python3-dev g++ python3 python3-pip python3-venv git
+sudo ln -s /usr/bin/python3 /usr/bin/python
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo npm install -g pnpm
+```
 
 ---
 # Roadmap
@@ -67,6 +82,42 @@ Built for collaboration, this repo integrates Python (ElizaOS) for Twitter inter
   1. Create posting action for agent (`post_kol_mentions.py`)
   2. Configure Character
   3. Test
+- **Dependencies**:
+  - `@0glabs/0g-ts-sdk@0.2.1`
+  - `@coinbase/coinbase-sdk@0.10.0`
+  - `@deepgram/sdk@3.11.1`
+  - `@elizaos-plugins/adapter-sqlite@<version>` (linked: `packages/adapter-sqlite`)
+  - `@injectivelabs/sdk-ts@1.14.41`
+  - `@vitest/eslint-plugin@1.0.1`
+  - `amqplib@0.10.5`
+  - `bs58@5.0.0`
+  - `csv-parse@5.6.0`
+  - `langdetect@0.2.1`
+  - `ollama-ai-provider@0.16.1`
+  - `optional@0.1.4`
+  - `pnpm@9.15.0`
+  - `sharp@0.33.5`
+  - `ws@8.18.0`
+  - `zod@3.24.1`
+- ##Dev Dependencies**:
+  - `@biomejs/biome@1.9.4`
+  - `@commitlint/cli@18.6.1`
+  - `@commitlint/config-conventional@18.6.3`
+  - `@types/jest@29.5.14`
+  - `cli@<version>` (linked: `packages/cli`)
+  - `concurrently@9.1.0`
+  - `cross-env@7.0.3`
+  - `husky@9.1.7`
+  - `jest@29.7.0`
+  - `lerna@8.1.5`
+  - `nodemon@3.1.7`
+  - `only-allow@1.2.1`
+  - `turbo@2.4.2`
+  - `typedoc@0.26.11`
+  - `typescript@5.6.3`
+  - `viem@2.21.58`
+  - `vite@5.4.12`
+  - `vitest@3.0.5`
 
 ---
 
@@ -84,6 +135,18 @@ Built for collaboration, this repo integrates Python (ElizaOS) for Twitter inter
   3. Integrate with elizaOs
   4. Update character config
   5. Test
+- **Dependencies**:
+  - `@solana/web3.js@1.98.0`
+  - `axios@1.8.1`
+  - `canvas@3.1.0`
+  - `ccxt@4.4.62`
+  - `chart.js@3.9.1`
+  - `chartjs-node-canvas@4.1.6`
+  - `cheerio@1.0.0`
+  - `typescript@5.7.3`
+- **Dev Dependencies**:
+  - `@types/node@22.13.5`
+  - `ts-node@10.9.2`
 
 ---
 
