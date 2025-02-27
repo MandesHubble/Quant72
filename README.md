@@ -72,9 +72,9 @@ Built for collaboration, this repo integrates Python (ElizaOS) for Twitter inter
 
 ## Phase 3: Build Market Tracking Agent
 - **Assigned**: Mandes
-- **Sources**:
-  - [https://www.sentient.market/](https://www.sentient.market/)
-  - [https://www.cookie.fun/](https://www.cookie.fun/)
+- **Data Sources**:
+  - CCXT, https://docs.ccxt.com/
+  - Binance, https://binance-docs.github.io/apidocs/spot/en/
 - **Function**:
   - Get data from source, like maketcap, token price, trends, AI Agent mind share
   - Analyze data
