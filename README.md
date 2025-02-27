@@ -99,7 +99,7 @@ sudo npm install -g pnpm
   - `sharp@0.33.5`
   - `ws@8.18.0`
   - `zod@3.24.1`
-- ##Dev Dependencies**:
+- **Dev Dependencies**:
   - `@biomejs/biome@1.9.4`
   - `@commitlint/cli@18.6.1`
   - `@commitlint/config-conventional@18.6.3`
