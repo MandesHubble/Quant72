@@ -48,6 +48,22 @@ sudo apt-get install -y nodejs
 sudo npm install -g pnpm
 ```
 
+### 2. Start Eliza
+```bash
+# Clone the repository
+git clone https://github.com/elizaos/eliza.git
+
+pnpm i
+pnpm build
+pnpm start
+
+# The project iterates fast, sometimes you need to clean the project if you are coming back to the project
+pnpm clean
+
+# interact via browser
+pnpm start:client
+````
+
 ---
 # Roadmap
 
