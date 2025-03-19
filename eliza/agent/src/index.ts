@@ -30,7 +30,7 @@ import os from "os";
 import path from "path";
 import { fileURLToPath } from "url";
 import yargs from "yargs";
-
+import { ccxtProvider } from "./providers/ccxtProvider.ts";
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
 
@@ -630,7 +630,7 @@ export async function createAgent(
         ]
             .flat()
             .filter(Boolean),
-        providers: [],
+        providers: [ccxtProvider],
         managers: [],
         actions: [],
         fetch: logFetch,

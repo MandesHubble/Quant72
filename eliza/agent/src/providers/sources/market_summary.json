@@ -1,0 +1,116 @@
+{
+  "timestamp": "2025-03-18T18:17:49.670424",
+  "data": {
+    "total_pairs": 2995,
+    "active_pairs": 20,
+    "top_pairs_by_volume": [
+      {
+        "symbol": "USDT/TRY",
+        "volume": 3278389181.93,
+        "rank": 1
+      },
+      {
+        "symbol": "USDT/ARS",
+        "volume": 1945163115.3,
+        "rank": 2
+      },
+      {
+        "symbol": "BNX/TRY",
+        "volume": 1794462347.337,
+        "rank": 3
+      },
+      {
+        "symbol": "BTC/FDUSD",
+        "volume": 1752810191.9379902,
+        "rank": 4
+      },
+      {
+        "symbol": "BTC/USDT",
+        "volume": 1551046146.8912835,
+        "rank": 5
+      },
+      {
+        "symbol": "USDT/COP",
+        "volume": 1182133205.0,
+        "rank": 6
+      },
+      {
+        "symbol": "API3/TRY",
+        "volume": 1145211307.9779,
+        "rank": 7
+      },
+      {
+        "symbol": "ETH/USDC",
+        "volume": 1052239832.540733,
+        "rank": 8
+      },
+      {
+        "symbol": "PEPE/TRY",
+        "volume": 1029550455.0018039,
+        "rank": 9
+      },
+      {
+        "symbol": "USDC/USDT",
+        "volume": 1018358673.9778,
+        "rank": 10
+      },
+      {
+        "symbol": "ETH/FDUSD",
+        "volume": 889744159.774615,
+        "rank": 11
+      },
+      {
+        "symbol": "ETH/USDT",
+        "volume": 677951092.998126,
+        "rank": 12
+      },
+      {
+        "symbol": "BTC/JPY",
+        "volume": 673166285.669632,
+        "rank": 13
+      },
+      {
+        "symbol": "CAKE/TRY",
+        "volume": 563452676.7207,
+        "rank": 14
+      },
+      {
+        "symbol": "FDUSD/USDT",
+        "volume": 457180927.5918,
+        "rank": 15
+      },
+      {
+        "symbol": "SOL/USDT",
+        "volume": 435646405.21121,
+        "rank": 16
+      },
+      {
+        "symbol": "BTC/TRY",
+        "volume": 407617536.31329,
+        "rank": 17
+      },
+      {
+        "symbol": "XRP/TRY",
+        "volume": 398640838.54,
+        "rank": 18
+      },
+      {
+        "symbol": "XRP/USDT",
+        "volume": 371657054.7697,
+        "rank": 19
+      },
+      {
+        "symbol": "BTC/USDC",
+        "volume": 337792438.6343302,
+        "rank": 20
+      }
+    ],
+    "data_files": {
+      "tickers": "tickers.json",
+      "exchange_rates": "exchange_rates.json",
+      "orderbooks": "orderbooks.json",
+      "trades": "trades.json",
+      "ohlcv": "ohlcv.json"
+    }
+  }
+}
